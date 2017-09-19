@@ -10,10 +10,10 @@ docker-compose를 이용하여 가장 심플하고 최소한의 설정만으로 
 2대의 Tomcat은 가장 기본적인 클러스터링 설정을 사용하며 multicast 방식에 의해 세션 공유를 합니다.    
 
 ## 서버 구성도 ##    
-![server structure](/assets/img/docker/docker-compose-tomcat-clustering/1.png)     
+![server structure](https://raw.githubusercontent.com/jistol/docker-compose-nginx-tomcat-clustering-sample/master/img/1.png)     
 
 ## 샘플 폴더 구조 ##    
-![sample file list](/assets/img/docker/docker-compose-tomcat-clustering/2.png)     
+![sample file list](https://raw.githubusercontent.com/jistol/docker-compose-nginx-tomcat-clustering-sample/master/img/2.png)     
     
 Nginx와 Tomcat의 설정은 각 폴더별로 구분하고 Docker Build시 copy하도록 설정해두었습니다.     
 
