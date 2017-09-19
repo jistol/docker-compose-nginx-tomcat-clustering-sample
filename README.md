@@ -1,8 +1,6 @@
 docker-compose를 이용한 Nginx + Tomcat 클러스터링 샘플
 ---
-Nginx와 Tomcat을 이용하여 클러스터 환경을 구축/테스트 진행하였는데 서버를 각각 3대나 띄우려니 여간 귀찮을수가 없더군요.    
-docker-compose를 이용하여 가장 심플하고 최소한의 설정만으로 한방에 띄우는 방법 및 샘플을 포스팅합니다.    
-샘플 소스는 [jistol/docker-compose-nginx-tomcat-clustering-sample](https://github.com/jistol/docker-compose-nginx-tomcat-clustering-sample)에서 다운로드 가능합니다.     
+docker-compose를 이용하여 클러스터링 테스트 환경을 구축하는 샘플입니다.    
 
 기본구조
 ----
